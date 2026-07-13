@@ -14,16 +14,36 @@
 // console.log("Age is: ",age)
 // console.log("Email is: ",email)
 
+   
+// let a=parseInt(prompt("Enter number 1: "))
+// let b=parseInt(prompt("Enter number 2: "))
 
-let a=parseInt(prompt("Enter number 1: "))
-let b=parseInt(prompt("Enter number 2: "))
+// let add= a+b
+// let sub= a-b
+// let mul= a*b
+// let div= a/b
 
-let add= a+b
-let sub= a-b
-let mul= a*b
-let div= a/b
+// console.log("Addition is: ",add)
+// console.log("Subtraction is: ",sub)
+// console.log("Multiplication is: ",mul)
+// console.log("Division is: ",div)
 
-console.log("Addition is: ",add)
-console.log("Subtraction is: ",sub)
-console.log("Multiplication is: ",mul)
-console.log("Division is: ",div)
+
+
+
+let a=prompt("Enter value of a: ")
+let b=prompt("Enter value of b: ")
+let c=prompt("Enter value of c: ")
+
+let temp=a
+
+a=c
+c=b
+b=temp
+console.log("number a is: ",a)
+console.log("number b is: ",b)
+console.log("number c is: ",c)
+
+alert("value of a is: "+a)
+alert("value of b is: "+b)
+alert("value of c is: "+c)
