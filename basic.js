@@ -6,10 +6,24 @@
 // console.log("value of a: ",a,"value of b: ",b)
 
 
-let name=prompt("Enter your Name: ")
-let age=prompt("Enter your Age: ")
-let email=prompt("Enter your Email: ")
+// let name=prompt("Enter your Name: ")
+// let age=prompt("Enter your Age: ")
+// let email=prompt("Enter your Email: ")
 
-console.log("Name is: ",name)
-console.log("Age is: ",age)
-console.log("Email is: ",email)
+// console.log("Name is: ",name)
+// console.log("Age is: ",age)
+// console.log("Email is: ",email)
+
+
+let a=parseInt(prompt("Enter number 1: "))
+let b=parseInt(prompt("Enter number 2: "))
+
+let add= a+b
+let sub= a-b
+let mul= a*b
+let div= a/b
+
+console.log("Addition is: ",add)
+console.log("Subtraction is: ",sub)
+console.log("Multiplication is: ",mul)
+console.log("Division is: ",div)
