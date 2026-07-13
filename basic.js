@@ -31,19 +31,27 @@
 
 
 
-let a=prompt("Enter value of a: ")
-let b=prompt("Enter value of b: ")
-let c=prompt("Enter value of c: ")
+// let a=prompt("Enter value of a: ")
+// let b=prompt("Enter value of b: ")
+// let c=prompt("Enter value of c: ")
 
-let temp=a
+// let temp=a
 
-a=c
-c=b
-b=temp
-console.log("number a is: ",a)
-console.log("number b is: ",b)
-console.log("number c is: ",c)
+// console.log("number a is: ",a)
+// console.log("number b is: ",b)
+// console.log("number c is: ",c)
+// a=c
+// c=b
+// b=temp
 
-alert("value of a is: "+a)
-alert("value of b is: "+b)
-alert("value of c is: "+c)
+// alert("value of a is: "+a)
+// alert("value of b is: "+b)
+// alert("value of c is: "+c)
+
+
+
+
+
+
+
+
